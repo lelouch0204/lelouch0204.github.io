@@ -176,7 +176,7 @@ blockquote * {
 /* main nav */
 
 nav {
-  background: white;
+  background: rgb(0, 0, 0);
   box-shadow: none;
   height: 0;
 }
@@ -357,7 +357,7 @@ h3 {
 }
 
 .overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgb(25, 25, 25);
   height: 100%;
   left: 0;
   position: absolute;
