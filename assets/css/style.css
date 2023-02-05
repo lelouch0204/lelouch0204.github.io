@@ -1,4 +1,6 @@
-.profile-pic {
+html, body, .block{
+  height: 100%;
+}.profile-pic {
   position: relative;
   max-width:200px;
   max-height:200px;
