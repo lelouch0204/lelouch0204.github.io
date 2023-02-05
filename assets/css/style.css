@@ -2,8 +2,8 @@ html, body, .block{
   height: 100%;
 }.profile-pic {
   position: relative;
-  max-width:200px;
-  max-height:200px;
+  max-width:175x;
+  max-height:175px;
   width: auto;
   height: auto;
   overflow: hidden;
@@ -204,7 +204,7 @@ nav i {
 
 main {
   background: url(../../assets/img/bg.png) repeat;
-  padding-left: 190px;
+  padding-left: 250px;
 }
 
 dl {
@@ -223,11 +223,17 @@ dt {
 }
 
 ul.side-nav {
-  width: 190px;
+  width:250px;
+  background: rgba(10, 10, 10, 0.9);
+  color: white;
 }
 
 ul.side-nav li {
   padding: 0;
+}
+
+ul.side-nav li:hover, ul.side-nav li:active {
+  background: none;
 }
 
 /* ul.side-nav.fixed a {
@@ -240,10 +246,9 @@ ul.side-nav li {
 
 ul.side-nav.fixed a {
   box-sizing: content-box;
-  color: rgb(16, 202, 56);
   display: block;
   line-height: 100%;
-  padding: 10px 0 12px;
+  padding: 12px 0 15px;
 }
 
 ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
@@ -260,10 +265,10 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 } */
 
 ul.side-nav.fixed li.logo {
-  background-color: #fafafa;
-  border-bottom: 1px solid #ddd;
+  /*background-color: #fafafa;*/
+  /*border-bottom: 1px solid #ddd;*/
   box-sizing: content-box;
-  min-height: 90px;
+  min-height: 150px;
   padding: 30px 30px 40px;
 }
 
@@ -273,12 +278,12 @@ ul.side-nav.fixed li.logo a {
 }
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
-  background-color: #fafafa;
+  background-color: #3D76FC;
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: rgba(255, 255, 255, 0.9) !important;
 }
 
 li.logo span {
@@ -298,7 +303,7 @@ li.logo span {
 }
 
 h3 {
-  font-weight: 200;
+  font-weight: 400;
   margin-bottom: 60px;
   margin-top: 0;
   padding: 30px 40px;
@@ -309,6 +314,7 @@ h3 {
   padding-bottom: 30px;
   padding-top: 0;
   position: relative;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .full-height {
@@ -386,8 +392,8 @@ h3 {
 
 .card li a {
   margin-right: 0;
-  color: #333;
-  border-bottom: 2px solid #ffab40;
+  color: #000000df;
+  border-bottom: 2px solid #000000;
 }
 
 .card li a:hover {
@@ -397,6 +403,11 @@ h3 {
 
 .card .card-content {
   padding-bottom: 30px;
+  background-color: rgb(53, 53, 53);
+}
+
+.card .card-content ul li {
+  color: #ffffff;
 }
 
 .card .card-content p {
@@ -417,7 +428,7 @@ h3 {
 }
 
 #experience .card-action {
-  background-color: rgba(0, 0, 0, 0.02);
+  background-color: rgb(38, 38, 38);
   border: none;
 }
 
@@ -431,7 +442,7 @@ h3 {
 
 .card-action span {
   font-size: 85%;
-  color: #666;
+  color: #ffffff;
 }
 
 .card ul {
@@ -445,7 +456,7 @@ h3 {
 }
 
 .card ul li li {
-  color: #666;
+  color: #ffffff;
   font-size: 13px;
 }
 
@@ -552,7 +563,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #3D76FC !important;
+  color: #e7e7e7 !important;
 }
 
 /* .teal-text {
