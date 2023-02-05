@@ -20,7 +20,7 @@ html, body, .block{
 
 .profile-pic img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 .tracker {
